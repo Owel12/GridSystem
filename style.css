@@ -1,0 +1,92 @@
+.body {
+    background-image: url('pogi.gif'); 
+    background-size: cover; 
+    background-position: center;
+  }
+
+  .row {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .container-fluid { 
+    padding: 0;
+  }
+
+  #col1 {
+    background-color: rgba(255, 0, 0, 0.7); 
+    padding: 20px;
+  }
+
+  #col2 {
+    background-color: rgba(0, 255, 0, 0.7); 
+    padding: 20px;
+  }
+
+  #col3 {
+    background-color: rgba(0, 0, 255, 0.7); 
+    padding: 20px;
+  }
+
+  #col4 {
+    background-color: rgba(255, 255, 0, 0.7); 
+    padding: 20px;
+  }
+
+  #col5 {
+    background-color: rgba(255, 0, 255, 0.7); 
+    padding: 20px;
+  }
+
+  #col6 {
+    background-color: rgba(0, 255, 255, 0.7); 
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.76);
+  }
+
+  #col7 {
+    background-color: rgba(255, 165, 0, 0.7); 
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.76);
+  }
+
+  #col8 {
+    background-color: rgba(128, 0, 128, 0.7); 
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.76);
+  }
+
+  #col9 {
+    background-color: rgba(128, 128, 128, 0.7); 
+    padding: 20px;
+  }
+
+  #col10 {
+    background-color: rgba(255, 192, 203, 0.7); 
+    padding: 20px;
+  }
+
+  #col11 {
+    background-color: rgba(0, 128, 0, 0.7); 
+    padding: 20px;
+  }
+
+  #col12 {
+    background-color: rgba(128, 0, 0, 0.7); 
+    padding: 20px;
+  }
+
+  .col-8 {
+    background-color: rgba(255, 255, 0, 0.7); 
+  }
+
+  .col-4 {
+    background-color: rgba(255, 165, 0, 0.7); 
+  }  
+
+
+ @media screen and (max-width: 768px) {
+    body {
+          background-size: contain;  
+  }
+}
